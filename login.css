@@ -1,0 +1,138 @@
+body {font-family:'Times New Roman', Times, serif ;}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #432616;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #432616;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+a:hover{
+  color: red;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 12px 0;
+  position: relative;
+}
+
+img.logo1 {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.container {
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-top: -10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+span.psw {
+  float: center;
+  padding-left: 70px;
+  padding-top: 16px;
+}
+/* Modal Content/Box */
+.modal-content {
+  opacity: 90%;
+  background-color: #432616;
+  margin: 10% auto -1% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #432616;
+  width: 25%; /* Could be more or less, depending on screen size */
+}
+.submit{
+    text-align: center;
+    margin-top: -7px;
+    margin-bottom: 2px;
+    margin-left: 35%;
+    width: 20%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:1px;
+    padding-bottom: 3px;
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.submit:hover{
+    color: rgb(1, 255, 1);
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.signup-link{
+  text-align: center;
+  margin-top: -7px;
+}
+.signup{
+  text-decoration: none;
+  color: wheat;
+}
+.signup:hover{
+  color: rgb(0, 255, 0);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>Comfirm Order</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+<link rel="stylesheet" href="order.css">
+</head> 
+<body>
+    <div class ="bgviuals">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="caramel.mp4" type = "video/mp4">
+        </video>
+        <div class ="container">
+            <div class ="product">
+                <div class ="gallary">
+                    <img src = "caramel.png">
+                </div>
+                <div class="details">
+                    <h1>Creamy Caramel(250Gm)</h1>
+                    <h2>Rs 748/-</h2>
+                    <h3>18% OFF</h3>
+                    <p>Indulge in the rich, velvety embrace of creamy caramel swirled into a smooth cup of coffee, a delightful harmony of sweetness and warmth.                </p>
+                    <form>
+                        <div class ="quantity-select">
+                            <p>Quantity</p>
+                            <input type="number" value ="1" min="1">
+                        </div>
+                        
+                    </form>
+                    <button class="order"><span class="default">Place Order</span><span class="success">Order Placed
+                        <svg viewbox="0 0 12 10">
+                        <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                        </svg></span>
+                    <div class="box"></div>
+                    <div class="truck">
+                        <div class="back"></div>
+                        <div class="front">
+                        <div class="window"></div>
+                        </div>
+                        <div class="light top"></div>
+                        <div class="light bottom"></div>
+                    </div>
+                    <div class="lines"></div>
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

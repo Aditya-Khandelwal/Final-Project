@@ -1,0 +1,127 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #432616;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #432616;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a:hover {
+    color: red;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 10px 0 12px 0;
+    position: relative;
+}
+
+img.logo1 {
+    width: 55%;
+    border-radius: 45%;
+}
+
+.container {
+    letter-spacing: 2px;
+    padding: 15px; 
+    margin-top: -38px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size:larger;
+}
+
+.modal-content {
+    opacity: 90%;
+    background-color: #432616;
+    margin: 5% auto -1% auto;
+    border: 1px solid #432616;
+    width: 25%;
+}
+
+.button-container {
+    margin: -7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25%;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.submit:hover {
+    color: rgb(1, 255, 1);
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.login{
+color: wheat;
+}
